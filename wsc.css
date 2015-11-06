@@ -1,0 +1,56 @@
+body {
+	background: #1abc9c;
+	text-align: center;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#clock {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	width: 600px;
+	height: 300px;
+	background: #000;
+	border-spacing: 2;
+	position: relative;
+	margin: 15vh auto auto auto;
+}
+#hours {
+	font-size: 31px;
+	letter-spacing: -1px;
+}
+p, h3 {
+	color: #eee;
+	font-weight: 200;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px 2px #16a085;
+}
+p {
+	margin-top: -20px;
+}
+h3 {
+	font-size: 28px;
+}
+#whois {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+}
+#whois a {
+	font-size: 11px;
+	color: #0f705d;
+	text-shadow: 0px 0px 2px #fff;
+	text-decoration: none;
+
+	-webkit-transition: color 275ms ease-in-out, text-shadow 275ms ease-in-out;
+	-moz-transition: color 275ms ease-in-out, text-shadow 275ms ease-in-out;
+	-ms-transition: color 275ms ease-in-out, text-shadow 275ms ease-in-out;
+	-o-transition: color 275ms ease-in-out, text-shadow 275ms ease-in-out;
+	transition: color 275ms ease-in-out, text-shadow 275ms ease-in-out;
+}
+#whois a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 2px #0f705d;
+}
