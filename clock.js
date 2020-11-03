@@ -7,7 +7,7 @@ function clockCreate() {
 
         for (var y = 0; y < 12; y++) {
             var td = row.insertCell();
-          	
+
             if (x === 0) {
             	row.id = "hours";
             	td.id = "h" + (y+1);
@@ -29,7 +29,7 @@ function clockCreate() {
             td.style.border = "3px solid #999";
             td.className = "inactive";
         }
-    }	
+    }
     document.body.insertBefore(clock, document.body.firstChild);
 }
 
